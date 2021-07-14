@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 section {
-   height: 100vh;
+   height: calc(100vh - 68px);
    background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(0, 0, 0, 0.589)),
       url(./assets/pexels-anamul-rezwan-1216589.jpg);
    background-size: cover;
@@ -10,12 +10,13 @@ section {
 
 header a {
    text-decoration: none;
-   color: #fff;
+   color: #000;
 }
 
 header {
    display: grid;
    grid-template-columns: 5% auto 5%;
+   background-color: rgb(170, 236, 132);
 }
 
 .logo {
@@ -62,6 +63,7 @@ nav li {
    border: none;
    text-transform: uppercase;
    font-family: "Oswald", sans-serif;
+   cursor: pointer;
 }
 
 @media screen and (min-width: 800px) {
